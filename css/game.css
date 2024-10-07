@@ -1,0 +1,17 @@
+#ui{
+    width: 100%;
+    height: 100%;
+}
+#canvas{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+	object-fit: cover;
+    background-color: black;
+    background-image: url(../img/bg/homeBg.png);
+    background-size: cover;
+    border: none;
+    box-shadow: 0 0 30px #ffffff;
+}
